@@ -1,0 +1,21 @@
+********************
+******NA ORIGEM*****
+********************
+ssh -N -L<porto_origem>:localhost:<porto_destino> user@192.168.226.3
+ssh -N -L10110:localhost:110 user@192.168.226.3
+
+((-N) - Não é para abrir uma janela)
+((-L) - Local)
+
+
+ssh -ND 10110:localhost:110 user@192.168.226.3
+
+Alterar a configuração do cliente <exemplo o mail>
+IP = localhost
+PORTO = 10110
+
+
+********************
+*****NO DESTINO*****
+********************
+ssh -N -R10110:localhost:110 user@192.168.226.3

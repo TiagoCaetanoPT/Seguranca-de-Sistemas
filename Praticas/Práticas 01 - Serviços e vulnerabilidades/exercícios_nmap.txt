@@ -1,0 +1,29 @@
+Exercícios nmap
+
+0. ligar 1 ou 2 computadores da sala em Windows
+
+1. obter todos os *só* os IPs disponíveis na rede da sala -> gravar resultado num ficheiro
+
+
+2. obter lista dos *serviços do sistema* nos IPs do ficheiro anterior -> gravar resultado em ficheiros. Dica: -iL <inputfilename>
+  a. com syn
+  b. com ack
+  c. com fin: 
+  
+3. comparar resultados dos 3 scans com o ndiff
+  a. que conclusões tirou?
+  
+  ndiff fich1 fich2
+  
+4. repetir os pontos 2 mas para serviços UDP
+  
+4.5. instalar o zenmap
+  
+5. monitorizar com o wireshark scan a um *só* IP
+  a. com MAC spoofing. Qual é o objetivo desta opção?
+  b. com IP spoofing. Qual é o objetivo desta opção?
+  c. com diferentes opções de temporização. Qual é o intervalo de tempo entre pacotes?
+  d. desligar a resolução de nomes. Quanto tempo demorou o scan?
+  e. com a opção de identificar o SO
+  f. com a opção de identificar o serviços
+    i. mude o porto do SSH 
