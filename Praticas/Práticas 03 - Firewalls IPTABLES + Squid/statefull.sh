@@ -6,7 +6,7 @@
 IPT=/sbin/iptables
 
 echo "Definir a politica por omissao: negar"
-$IPT -P INPUT DROP 
+$IPT -P INPUT DROP
 $IPT -P OUTPUT DROP
 $IPT -P FORWARD DROP
 
@@ -17,7 +17,6 @@ $IPT -F
 #################################################
 #              stateless rules                  #
 #################################################
-
 echo "permitir acesso ao localhost"
 $IPT -A INPUT -i lo -j ACCEPT
 $IPT -A OUTPUT -o lo -j ACCEPT
@@ -57,5 +56,3 @@ $IPT -A INPUT -p tcp --sport 22 --dport $DYN -j ACCEPT
 echo "permitir acesso ao SSH -- servidor"
 $IPT -A INPUT -p tcp --sport $DYN --dport 22 -j ACCEPT
 $IPT -A OUTPUT -p tcp --sport 22 --dport $DYN -j ACCEPT
-
-
