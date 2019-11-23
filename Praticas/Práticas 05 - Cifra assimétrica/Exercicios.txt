@@ -1,0 +1,32 @@
+Exercícios:
+    1. Gerar um par de chaves.
+        gpg --full-generate-key
+
+    2. Exportar chave pública para um ficheiro.
+        gpg --output chavePublucaTiagoSS.gpg --export ss.teste@ipleiria.pt
+
+    3. Partilhar chave pública com colegas.
+
+    4. Importar a chave pública dos colegas.
+        gpg --import ChaveParaImportar.gpg
+
+    5. Validar o finger print da chave pública e depois assinar.
+        gpg --edit-key ss.teste@ipleiria.pt
+            pub   rsa3072/E680992B6FB22884 2019-11-21 teste SS ("teste SS <ss.teste@ipleiria.pt>") <ss.teste@ipleiria.pt>
+            Impressão da chave primária: 50EC A757 EDA1 6E57 E11B  F343 E680 992B 6FB2 2884
+
+    6. Cifrar um ficheiro qualquer com a chave pública de um colega.
+        gpg --encrypt --recipient ChaveDoAmigo FicheiroParaCifrar.txt
+
+    7. Receber o ficheiro cifrado e decifra-lo com a chave privada.
+        gpg --output teste_D.txt --decrypt teste.txt.gpg
+
+    8. Cifrar em sign
+        gpg --armor --output FicheiroParaCifrar.txt.sign --sign FicheiroParaCifrar.txt
+
+    9. Cifrar em clear-sign
+        gpg --armor --output FicheiroParaCifrar.txt.clear-sign --clear-sign FicheiroParaCifrar.txt
+
+    10. Cifrar em detach-sign
+        gpg --armor --output FicheiroParaCifrar.txt.detach-sign --detach-sign FicheiroParaCifrar.txt
+        gpg --verify FicheiroParaCifrar.txt.detach-sign FicheiroParaCifrar.txt
