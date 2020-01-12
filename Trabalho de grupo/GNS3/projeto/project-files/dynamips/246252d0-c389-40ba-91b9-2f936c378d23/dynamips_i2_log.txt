@@ -1,0 +1,10 @@
+Jan 09 17:59:43.357 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 09 17:59:43.357 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 48811.
+Jan 09 17:59:43.366 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 09 17:59:43.367 HYPERVISOR: exec_cmd: hypervisor working_dir /media/tiago/DATA/Escola/Licenciatura/3_Ano/1_Semestre/Seguranca-de-Sistemas/Trabalho de grupo/GNS3/projeto/project-files/dynamips 
+Jan 09 17:59:43.367 GENERAL: working_dir=/media/tiago/DATA/Escola/Licenciatura/3_Ano/1_Semestre/Seguranca-de-Sistemas/Trabalho de grupo/GNS3/projeto/project-files/dynamips
+Jan 09 17:59:43.367 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Jan 09 18:00:11.659 HYPERVISOR: exec_cmd: ethsw delete Switch1 
+Jan 09 18:00:11.660 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 09 18:00:11.891 HYPERVISOR: Stopped.
+Jan 09 18:00:11.891 GENERAL: reset done.

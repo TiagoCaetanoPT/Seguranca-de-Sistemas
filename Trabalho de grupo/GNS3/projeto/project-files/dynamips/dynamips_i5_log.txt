@@ -1,0 +1,12 @@
+Jan 10 12:47:31.278 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 10 12:47:31.278 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 41893.
+Jan 10 12:47:31.288 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 10 12:47:31.288 HYPERVISOR: exec_cmd: hypervisor working_dir /media/tiago/DATA/Escola/Licenciatura/3_Ano/1_Semestre/Seguranca-de-Sistemas/Trabalho de grupo/GNS3/projeto/project-files/dynamips 
+Jan 10 12:47:31.289 GENERAL: working_dir=/media/tiago/DATA/Escola/Licenciatura/3_Ano/1_Semestre/Seguranca-de-Sistemas/Trabalho de grupo/GNS3/projeto/project-files/dynamips
+Jan 10 12:47:31.289 HYPERVISOR: exec_cmd: nio_bridge create Switch2 
+Jan 10 12:47:31.531 HYPERVISOR: exec_cmd: nio create_udp udp-ed0eb660-2ae3-499f-81c1-f418583fa77e 10006 127.0.0.1 10007 
+Jan 10 12:47:31.532 HYPERVISOR: exec_cmd: nio_bridge add_nio Switch2 udp-ed0eb660-2ae3-499f-81c1-f418583fa77e 
+Jan 10 12:47:31.607 HYPERVISOR: exec_cmd: nio create_udp udp-2b4c223f-2ee3-4288-8a15-dc23c2d9b770 10009 127.0.0.1 10008 
+Jan 10 12:47:31.608 HYPERVISOR: exec_cmd: nio_bridge add_nio Switch2 udp-2b4c223f-2ee3-4288-8a15-dc23c2d9b770 
+Jan 10 12:47:31.690 HYPERVISOR: exec_cmd: nio create_udp udp-790b646a-7d93-4088-9337-a079e83b65ff 10011 127.0.0.1 10010 
+Jan 10 12:47:31.691 HYPERVISOR: exec_cmd: nio_bridge add_nio Switch2 udp-790b646a-7d93-4088-9337-a079e83b65ff 

@@ -1,0 +1,24 @@
+Jan 10 12:47:30.361 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 10 12:47:30.361 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 45435.
+Jan 10 12:47:30.370 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 10 12:47:30.370 HYPERVISOR: exec_cmd: hypervisor working_dir /media/tiago/DATA/Escola/Licenciatura/3_Ano/1_Semestre/Seguranca-de-Sistemas/Trabalho de grupo/GNS3/projeto/project-files/dynamips 
+Jan 10 12:47:30.370 GENERAL: working_dir=/media/tiago/DATA/Escola/Licenciatura/3_Ano/1_Semestre/Seguranca-de-Sistemas/Trabalho de grupo/GNS3/projeto/project-files/dynamips
+Jan 10 12:47:30.371 HYPERVISOR: exec_cmd: hypervisor working_dir /media/tiago/DATA/Escola/Licenciatura/3_Ano/1_Semestre/Seguranca-de-Sistemas/Trabalho de grupo/GNS3/projeto/project-files/dynamips/246252d0-c389-40ba-91b9-2f936c378d23 
+Jan 10 12:47:30.371 GENERAL: working_dir=/media/tiago/DATA/Escola/Licenciatura/3_Ano/1_Semestre/Seguranca-de-Sistemas/Trabalho de grupo/GNS3/projeto/project-files/dynamips/246252d0-c389-40ba-91b9-2f936c378d23
+Jan 10 12:47:30.371 HYPERVISOR: exec_cmd: vm create R2 2 c7200 
+Jan 10 12:47:30.372 VM: VM R2 created.
+Jan 10 12:47:30.372 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5007 
+Jan 10 12:47:30.372 HYPERVISOR: exec_cmd: c7200 get_mac_addr R2 
+Jan 10 12:47:30.372 HYPERVISOR: exec_cmd: vm get_status R2 
+Jan 10 12:47:30.372 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-FE 
+Jan 10 12:47:30.373 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Jan 10 12:47:30.373 HYPERVISOR: exec_cmd: vm get_status R2 
+Jan 10 12:47:30.373 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60189224 
+Jan 10 12:47:30.374 HYPERVISOR: exec_cmd: vm set_ios R2 /home/tiago/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M10.image 
+Jan 10 12:47:30.374 HYPERVISOR: exec_cmd: c7200 set_mac_addr R2 ca02.1444.0000 
+Jan 10 12:47:30.375 HYPERVISOR: exec_cmd: vm set_nvram R2 512 
+Jan 10 12:47:30.375 HYPERVISOR: exec_cmd: vm set_ram R2 512 
+Jan 10 12:47:30.375 HYPERVISOR: exec_cmd: vm get_status R2 
+Jan 10 12:47:30.375 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 PA-2FE-TX 
+Jan 10 14:24:22.218 HYPERVISOR: exec_cmd: vm get_status R2 
+Jan 10 14:24:22.220 HYPERVISOR: exec_cmd: vm extract_config R2 

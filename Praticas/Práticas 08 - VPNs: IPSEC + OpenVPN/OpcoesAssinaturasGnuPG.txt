@@ -1,8 +1,0 @@
-1) sign
-    Ekr[M] <-- É necessário reverter a operação para ver a mensagem
-
-2) clear-sign - ideal para ficheiros texto
-    M || Ekra(H(M))
-
-3) detach-sign - ideal para ficheiros binarios
-    M          Ekra(H(M))

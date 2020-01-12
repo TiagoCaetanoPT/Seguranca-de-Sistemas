@@ -1,0 +1,44 @@
+Jan 09 12:41:32.254 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 09 12:41:32.255 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52941.
+Jan 09 12:41:32.257 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 09 12:41:32.258 HYPERVISOR: exec_cmd: hypervisor working_dir /media/tiago/DATA/Escola/Licenciatura/3_Ano/1_Semestre/Seguranca-de-Sistemas/Trabalho de grupo/GNS3/projeto/project-files/dynamips 
+Jan 09 12:41:32.258 GENERAL: working_dir=/media/tiago/DATA/Escola/Licenciatura/3_Ano/1_Semestre/Seguranca-de-Sistemas/Trabalho de grupo/GNS3/projeto/project-files/dynamips
+Jan 09 12:41:32.258 HYPERVISOR: exec_cmd: hypervisor working_dir /media/tiago/DATA/Escola/Licenciatura/3_Ano/1_Semestre/Seguranca-de-Sistemas/Trabalho de grupo/GNS3/projeto/project-files/dynamips/f7c63eea-c5bb-431c-b64c-5b714da28151 
+Jan 09 12:41:32.259 GENERAL: working_dir=/media/tiago/DATA/Escola/Licenciatura/3_Ano/1_Semestre/Seguranca-de-Sistemas/Trabalho de grupo/GNS3/projeto/project-files/dynamips/f7c63eea-c5bb-431c-b64c-5b714da28151
+Jan 09 12:41:32.259 HYPERVISOR: exec_cmd: vm create R1 1 c7200 
+Jan 09 12:41:32.259 VM: VM R1 created.
+Jan 09 12:41:32.259 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Jan 09 12:41:32.259 HYPERVISOR: exec_cmd: c7200 get_mac_addr R1 
+Jan 09 12:41:32.260 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 09 12:41:32.260 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-FE 
+Jan 09 12:41:32.260 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Jan 09 12:41:32.261 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 09 12:41:32.261 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60189224 
+Jan 09 12:41:32.261 HYPERVISOR: exec_cmd: vm set_ios R1 /home/tiago/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M10.image 
+Jan 09 12:41:32.262 HYPERVISOR: exec_cmd: c7200 set_mac_addr R1 ca01.28c6.0000 
+Jan 09 12:41:32.262 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
+Jan 09 12:41:32.262 HYPERVISOR: exec_cmd: vm set_ram R1 512 
+Jan 09 12:41:32.262 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 09 12:41:32.262 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 PA-2FE-TX 
+Jan 09 13:04:11.190 HYPERVISOR: exec_cmd: vm set_ios R1 /home/tiago/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M10.image 
+Jan 09 13:04:14.032 HYPERVISOR: exec_cmd: vm set_ios R1 /home/tiago/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M10.image 
+Jan 09 17:49:33.065 HYPERVISOR: exec_cmd: vm set_ios R1 /home/tiago/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M10.image 
+Jan 09 17:52:18.272 HYPERVISOR: exec_cmd: vm set_ios R1 /home/tiago/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M10.image 
+Jan 09 17:52:20.185 HYPERVISOR: exec_cmd: vm set_ios R1 /home/tiago/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M10.image 
+Jan 09 18:10:24.597 HYPERVISOR: exec_cmd: vm set_ios R1 /home/tiago/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M10.image 
+Jan 09 18:11:19.408 HYPERVISOR: exec_cmd: vm set_ios R1 /home/tiago/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M10.image 
+Jan 09 18:12:34.224 HYPERVISOR: exec_cmd: nio create_udp udp-c5cdf15e-b65a-4be7-ac20-70a90b99fcd9 10014 127.0.0.1 10015 
+Jan 09 18:12:34.453 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-c5cdf15e-b65a-4be7-ac20-70a90b99fcd9 
+Jan 09 18:12:34.454 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 09 18:12:41.244 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 09 18:12:41.245 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R1 0 0 
+Jan 09 18:12:41.245 HYPERVISOR: exec_cmd: nio delete udp-c5cdf15e-b65a-4be7-ac20-70a90b99fcd9 
+Jan 09 21:55:40.721 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 09 21:55:40.728 HYPERVISOR: exec_cmd: vm extract_config R1 
+Jan 09 21:55:41.595 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 09 21:55:41.596 HYPERVISOR: exec_cmd: vm extract_config R1 
+Jan 09 21:55:41.596 HYPERVISOR: exec_cmd: vm delete R1 
+Jan 09 21:55:41.596 VM: VM R1 destroyed.
+Jan 09 21:55:41.596 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 09 21:55:41.670 HYPERVISOR: Stopped.
+Jan 09 21:55:41.670 GENERAL: reset done.

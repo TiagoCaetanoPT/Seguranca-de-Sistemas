@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <Action_Options_Shortcut>F2</Action_Options_Shortcut>
+  <SessionsTreeFont>Segoe UI, 9pt</SessionsTreeFont>
+  <PscpExe>
+  </PscpExe>
+  <TabTextBehavior>Dynamic</TabTextBehavior>
+  <WindowState>Normal</WindowState>
+  <DefaultLayoutName>
+  </DefaultLayoutName>
+  <MinttyExe>
+  </MinttyExe>
+  <Action_PrevTab_Shortcut>None</Action_PrevTab_Shortcut>
+  <ShowToolBarCommands>False</ShowToolBarCommands>
+  <PuttyExe>putty.exe</PuttyExe>
+  <AlwaysOnTop>False</AlwaysOnTop>
+  <SendCommandsToVisibleOnly>False</SendCommandsToVisibleOnly>
+  <Opacity>1</Opacity>
+  <ShowToolBarConnections>False</ShowToolBarConnections>
+  <SettingsFolder>.</SettingsFolder>
+  <SingleInstanceMode>True</SingleInstanceMode>
+  <RestoreWindowLocation>False</RestoreWindowLocation>
+  <ApplicationVersion>
+  </ApplicationVersion>
+  <ExitConfirmation>False</ExitConfirmation>
+  <Action_FullScreen_Shortcut>F11</Action_FullScreen_Shortcut>
+  <Action_CloseTab_Shortcut>None</Action_CloseTab_Shortcut>
+  <ShowStatusBar>False</ShowStatusBar>
+  <WindowPosition>331, 106, 1024, 766</WindowPosition>
+  <RestrictContentToDocumentTabs>True</RestrictContentToDocumentTabs>
+  <Action_SwitchSession_Shortcut>None</Action_SwitchSession_Shortcut>
+  <Action_OpenSession_Shortcut>None</Action_OpenSession_Shortcut>
+  <MinimizeToTray>False</MinimizeToTray>
+  <WindowActivator>SuperPutty.Utils.KeyEventWindowActivator</WindowActivator>
+  <TabSwitcher>SuperPutty.Utils.VisualOrderTabSwitchStrategy</TabSwitcher>
+  <SessionsTreeShowLines>False</SessionsTreeShowLines>
+  <Action_NextTab_Shortcut>None</Action_NextTab_Shortcut>
+  <ExpandSessionsTreeOnStartup>False</ExpandSessionsTreeOnStartup>
+</Settings>

@@ -1,0 +1,4 @@
+Warning: nic e1000.1 has no peer
+Warning: nic e1000.2 has no peer
+Warning: nic e1000.3 has no peer
+Misaligned i/o to address 0000ffff with size 4 for memory region io

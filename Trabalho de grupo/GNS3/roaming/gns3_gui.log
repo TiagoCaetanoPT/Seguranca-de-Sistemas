@@ -1,0 +1,18 @@
+Log level: INFO
+New local server connection http://127.0.0.1:8000 registered
+VPCS module reset
+Dynamips module reset
+IOU module reset
+VirtualBox module reset
+QEMU module reset
+Built-in module reset
+Topology reset
+Starting local server process with "C:\GNS3\gns3server.exe" --host=127.0.0.1 --port=8000 --local --log="C:/Users/user/AppData/Roaming/GNS3\gns3_server.log"
+Local server process has started (PID=5840)
+VPCS module reset
+Dynamips module reset
+IOU module reset
+VirtualBox module reset
+QEMU module reset
+Built-in module reset
+Topology reset
